@@ -1,0 +1,409 @@
+body {
+    margin: 0px;
+}
+
+header {
+    
+    
+    height: 64px;
+
+}
+
+#start-here {
+    text-decoration: none;
+    display: block;
+    background-color: rgb(155, 155, 155);
+    text-align: center;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    font-size:large;
+}
+
+/*
+ ************
+ Mobile responsivness media query
+ ************* 
+ */
+
+@media only screen and (max-width:700px) {
+
+    .body-background {
+        background-color: rgb(243, 244, 244);
+    }
+
+    /* Background color of body except banner*/
+
+    hr {
+        margin: 0%;
+    }
+
+    .mobile-nav {
+        padding: 16px;
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+       
+        
+       
+    }
+
+
+
+    
+
+    /******
+    Start of Banner styling
+    *******/
+    .banner-image {
+        width: 100%;
+
+    }
+
+    .banner-info {
+        width: 100%;
+        margin: 0px;
+    }
+
+    .banner-content {
+        background-color: rgb(216, 216, 216);
+        overflow-x: scroll;
+
+        padding: 32px 16px;
+    }
+
+    #banner-content-heading {
+        margin-top: 0px;
+        margin-bottom: 32px;
+
+    }
+
+    #banner-paragraph {
+        margin-bottom: 24px;
+    }
+
+    
+
+    /*** End of banner styling ***/
+
+
+    /******
+    Start of campus information
+    ********/
+    .campus-information {
+        width: 100%;
+    }
+
+    .campus-information-content {
+        padding: 16px 16px 48px;
+
+        overflow-x: scroll;
+
+    }
+
+    .campus-information-image {
+
+        width: 100%;
+
+    }
+
+    .margin-spacing {
+        margin-left: 16px;
+
+    }
+    
+    .info-mobile-image {
+        margin-bottom: 16px;
+    }
+
+    /******* End of campus information********/
+
+    /*****
+    Start of Learning Content
+    ******/
+
+    .learning {
+        width: 100%;
+    }
+
+    .learnig-content {
+        overflow-x: scroll;
+        padding: 32px 16px;
+    }
+
+    .learning-heading {
+        text-align: center;
+        margin: 0px auto 16px;
+
+    }
+
+    .learning-list {
+        display: block;
+        text-decoration: none;
+        background-color: rgb(216, 216, 216);
+        padding: 16px 16px 24px;
+        margin-bottom: 8px;
+        overflow-x: scroll;
+        color: #343a40;
+        font-weight: bold;
+    }
+
+    /************
+    Styling of thesis
+    *************/
+
+    .thesis-content {
+        overflow-x: scroll;
+    }
+
+    .thesis-heading {
+        padding: 32px 0px 16px;
+        margin: 0%;
+        text-align: center;
+
+    }
+
+    .thesis-video {
+        width: 100%;
+        margin-bottom: 24px;
+    }
+
+    .thesis-paragraph {
+        padding: 16px;
+    }
+
+    /* End of thesis styling*/
+
+    /*********
+    Display none for mobile 
+    **********/
+
+    .left-side-info {
+        display: none;
+    }
+
+    .info-desktop-img {
+        display: none;
+    }
+
+    .learning-content-desktop {
+        display: none;
+    }
+
+    .not-for-mobile {
+        display: none;
+    }
+
+    
+
+
+
+
+
+}
+
+/**** End of Media query for mobile *****/
+
+
+
+/**********
+Start of media queries for Desktop
+***********/
+
+@media only screen and (min-width:600px) {
+
+    .body-background {
+        background-color: rgb(243, 244, 244);
+    }
+
+    .banner-image {
+        display: block;
+        width: 60%;
+        padding: 32px 24px;
+    }
+
+    .banner {
+        width: 100%;
+        display: flex;
+        background-color: rgb(216, 216, 216);
+    }
+
+    .banner-info {
+        width: 40%;
+        
+        
+    }
+
+    .banner-content {
+        
+        
+        position: relative;
+        top: 30%;
+        margin-right: 20%;
+        
+        
+
+    }
+
+    #start-here {
+        background-color: #343a40;
+        color: rgb(255, 255, 255);
+    }
+
+    
+
+    .campus-information {
+        display: flex;
+        max-width: 100%;
+
+    }
+
+    .left-side-info {
+        width: 60%;
+        padding: 32px 24px;
+        border-right: 1px solid rgb(170, 170, 170);
+
+
+
+    }
+
+    .info-flex {
+        margin-top: 32px;
+        width: 40%;
+        padding-bottom: 32px;
+    }
+
+
+
+    #left-side-info-image {
+        width: 100%;
+    }
+
+    .info-desktop-img {
+        display: block;
+        width: 35%;
+        padding: 16px;
+    }
+
+    .campus-information-content {
+        display: flex;
+        border-bottom: 1px solid rgb(170, 170, 170);
+
+    }
+
+    .campus-information-content:hover {
+        background-color: rgb(216, 216, 216);
+    }
+
+    .margin-spacing {
+        margin-bottom: 8px;
+
+    }
+
+    /**End of Campus Information ***/
+
+
+    /*******
+    Start of styling thesis information
+    ********/
+
+
+    .thesis-content {
+        max-width: 100%;
+        padding: 32px 0px 0px;
+    }
+
+
+    .thesis-heading {
+        margin: 0%;
+
+        text-align: center;
+    }
+
+
+
+    .thesis-flexing {
+        display: flex;
+    }
+
+    .thesis-leftside-content {
+        max-width: 60%;
+        padding: 32px 24px;
+    }
+
+    .thesis-video-desktop {
+
+        width: 100%;
+        margin-bottom: 24px;
+        
+    }
+
+    .video-paragraph {
+        margin: 8px 0px 0px;
+    }
+
+    .thesis-aside {
+        padding: 32px 0px;
+    }
+
+    .theis-aside-image {
+        display: block;
+    }
+
+    .thesis-aside-content {
+        display: flex;
+        
+        
+       
+    }
+
+    .video-heading {
+        margin: 0%;
+    }
+
+    .thesis-aside-image {
+        width: 35%;
+        margin: 16px;
+        
+    }
+
+   .courses {
+       width: 100%;
+       background-color: #BABDB6;
+       overflow: hidden;
+       padding: 32px 72px;
+   }
+
+   .course-col {
+       margin-bottom: 32px;
+   }
+
+
+
+
+    /*********
+    Display none for desktop
+    **********/
+
+    .not-for-desktop {
+        display: none;
+    }
+
+    .info-mobile-image {
+        display: none;
+    }
+
+    hr {
+        display: none;
+    }
+
+    .learnig-content {
+        display: none;
+    }
+
+
+
+
+
+}
